@@ -2,7 +2,9 @@
 {{ with $.Site.Params.comment }}
 <section class="comments">
   <h2>Comments</h2>
- {{ $comments := getCSV "," ( printf "https://docs.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" .sheet ) }}
+ {{ $comments := slice }}
+ {{ $url := printf "https://docs.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" .sheet }}
+ {{ with resources.GetRemote $url }}{{ $comments = . | transform.Unmarshal (dict "delimiter" ",") }}{{ end }}
  <ul>
   {{ $hasComment := false }}
  {{ range $r := $comments }}
