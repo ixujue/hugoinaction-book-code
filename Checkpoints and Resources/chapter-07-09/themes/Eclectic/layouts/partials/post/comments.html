@@ -3,8 +3,10 @@
 <section class="comments">
   <h2>Comments</h2>
  {{ $comments := slice }}
+ {{ if .sheet }}
  {{ $url := printf "https://docs.google.com/feeds/download/spreadsheets/Export?key=%s&exportFormat=csv" .sheet }}
  {{ with resources.GetRemote $url }}{{ $comments = . | transform.Unmarshal (dict "delimiter" ",") }}{{ end }}
+ {{ end }}
  <ul>
   {{ $hasComment := false }}
  {{ range $r := $comments }}
