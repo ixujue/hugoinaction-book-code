@@ -154,6 +154,7 @@ Updates
 ---------
 July 6, 2022 - Fixed some bugs around search results clickability and keyboard handling in chapter 10.
 Sept 7, 2024 - Removed google analytics async as it is not supported in Hugo any more (https://github.com/gohugoio/hugo/pull/11468/files)
+May 12, 2026 - Updated all branches for Hugo 0.161.1 compatibility: replaced removed APIs (`.Site.Author`, `.Site.Language.Locale`, `getCSV`/`getJSON`), pinned `HUGO_VERSION = "0.161.1"` via `netlify.toml`, and updated GitHub Actions runner/Hugo version in all chapter branches.
 
 Hugo In Action Website
 ---------------------
