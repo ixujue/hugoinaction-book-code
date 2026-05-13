@@ -1,4 +1,5 @@
 node_modules/
 public/
 .hugo_build.lock
-api/env.json
+**/api/env.json
+**/api/result.json

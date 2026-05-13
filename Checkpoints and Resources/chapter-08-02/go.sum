@@ -1,4 +1,8 @@
 github.com/hugoinaction/Eclectic v0.0.0-20240909042235-c134b38fcc24 h1:vNW/pWpT+CUCDH+ynKHuQeNPJKnelBMp/QNKxMXM+8U=
 github.com/hugoinaction/Eclectic v0.0.0-20240909042235-c134b38fcc24/go.mod h1:z4ORsG6K5BF+U3ssVkl+7kzy770SWHxNXfWYzdQrqGc=
+github.com/hugoinaction/Eclectic v0.0.0-20260513011718-a53c0827d41e h1:5Ws5l0pBoqwInlGQfUr3Jk7T3SlYFe7Bz0RwfQ5MSqg=
+github.com/hugoinaction/Eclectic v0.0.0-20260513011718-a53c0827d41e/go.mod h1:z4ORsG6K5BF+U3ssVkl+7kzy770SWHxNXfWYzdQrqGc=
 github.com/hugoinaction/Universal v0.0.0-20210709125610-ce21286916b5 h1:J1x9ysdIwztwgmFwfue591iw0JqgZfahRgs5p5d/lFM=
 github.com/hugoinaction/Universal v0.0.0-20210709125610-ce21286916b5/go.mod h1:tn5626W3c7g5nJ84Hsoe7/Oj1vT5D7xe9yyNhMe72X8=
+github.com/hugoinaction/Universal v0.0.0-20260513012018-bae6f824ef82 h1:wMwvDHz+YnY2Z+ydNY8SvFC60dBEh42TBpo8YNQ6PYs=
+github.com/hugoinaction/Universal v0.0.0-20260513012018-bae6f824ef82/go.mod h1:tn5626W3c7g5nJ84Hsoe7/Oj1vT5D7xe9yyNhMe72X8=
